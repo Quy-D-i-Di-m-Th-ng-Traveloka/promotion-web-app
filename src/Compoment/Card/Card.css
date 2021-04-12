@@ -1,0 +1,32 @@
+.card-img{
+    width: 308px;
+    height: auto;
+    border-bottom: 0.5px solid rgb(196, 196, 196);
+}
+
+.card{
+    width: 308px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    min-height: 200px;
+    max-height: 350px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 5px #888888;
+    transform: scale(1.01);
+}
+
+#hanSuDung{
+    background-color:#f6f6f6;
+    padding: 4px;
+    border-radius: 5px 5px;
+    border:0.5px solid grey;
+}
+
+#hanSuDung p{
+    margin: 0px;
+    font-size: 13px;
+}
